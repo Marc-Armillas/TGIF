@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(248, 247, 247);
+}
+
+.header {
+    padding: 2em;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c1/Visual_of_USA_Flag_stars_and_stripes_FJM88NL.jpg ");
+    background-repeat:no-repeat;
+    background-size:100%;
+    /* background-position:center */
+}
+
+.header-logo{
+    max-height: 100px;
+    height: auto;
+}
+
+.container-fluid {
+    background-color: rgb(248, 247, 247);
+}
+
+#navbarDropdownMenuLink {
+    font-size: 1.25rem;
+    color:rgba(0,0,0,.9);
+}
+
+.text-box {
+    margin: 2em 0 2em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+}
+
+thead {
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+}
+tbody a {
+    color: black;
+    text-decoration: none;
+}
+
+#checkboxes div {
+    margin-right: 10px;
+}
+
+.footer-p {
+    display: inline;
+}
+
+
+/* atendance and loyalty tables */
+
+.box1, .box2 {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+}
+
+hr {
+    margin-top: 4vw;
+}
+
+hr:not([size]){
+    height: 2px;
+}
+
+/* legislators html */
+
+#statesDropdown {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#select {
+    margin-left: 1em;
+    border-style: none;
+    background-color: rgb(248, 247, 247);
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+    font-weight: 50 0;
+}
+
+h5 {
+    margin-top: 5px;
+}
+
+#select>option {
+    font-size: 1.25rem;
+}

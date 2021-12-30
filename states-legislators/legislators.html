@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../main.css" type="text/css"/>
+    <title>NY Legislators</title>
+</head>
+<body class="container">
+    <header class="header">
+        <img class="header-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg"></img>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../home.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Congress 113
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/house/house-data.html">House</a></li>
+                        <li><a class="dropdown-item" href="/senate/senate-data.html">Senate</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Loyalty
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="/house/house-party-loyalty.html">House</a></li>
+                      <li><a class="dropdown-item" href="/senate/senate-party-loyalty.html">Senate</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Attendance
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="/house/house-attendance.html">House</a></li>
+                      <li><a class="dropdown-item" href="/senate/senate-attendance.html">Senate</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <a class="navbar-brand" href="legislators.html">NY Legislators</a>                    
+            </div>
+          </div>
+        </nav>
+        <div id="statesDropdown">
+          <h5>Select by State:</h5>
+          <select id="select"></select>
+        </div>
+    <!-- Table -->
+    <div id="app"></div>
+    <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Party</th>
+            <th>Chamber</th>
+          </tr>
+        </thead>
+        <tbody id="table"></tbody>
+        
+      </table>
+    <!-- vue js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script> -->
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <!-- js files -->
+    <script src="new-york-legislators.js"></script>
+</body>
+  <footer>
+    <p class="footer-p" >&copy; 2016 TGIF | All Rights Reserved</p>
+    <a type="email" href="#info@tgif.net">info@tgif.net</a>
+  </footer>
+</html>
+
+
+
